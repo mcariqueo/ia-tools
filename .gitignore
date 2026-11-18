@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Entornos y secretos
+.env
+.env.*
+*.key
+credentials.json
+
+# Datos (evitar subir datos crudos/sensibles)
+data/raw/
+data/*.csv
+data/*.xlsx
+!data/README.md
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs y temporales
+*.log
+tmp/
+*.tmp
